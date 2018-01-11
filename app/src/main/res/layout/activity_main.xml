@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bawei.jiaosheng0111.MainActivity"
+    android:orientation="vertical">
+
+<com.youth.banner.Banner
+    android:id="@+id/banner"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+</com.youth.banner.Banner>
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/re_gtidview"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+  </android.support.v7.widget.RecyclerView>
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/re_listview"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+  </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+</ScrollView>
